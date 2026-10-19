@@ -1,0 +1,14 @@
+{
+  "name": "sigr",
+  "version": "1.0.0",
+  "description": "Sistema Integral de Gestión de Restaurante (SIGR): API web para pedidos, reservas, menús, caja y reportes.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test \"test/*.test.js\"",
+    "check": "node --check src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "engines": { "node": ">=21" },
+  "license": "MIT"
+}
